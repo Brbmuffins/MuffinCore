@@ -1,0 +1,52 @@
+ ______________________________________________________________________     
+|     /\__\         /\__\         /\  \         /\  \         /\  \    |
+|    /::|  |       /::|  |       /::\  \       /::\  \       /::\  \   |
+|   /:|:|  |      /:|:|  |      /:/\:\  \     /:/\:\  \     /:/\:\  \  |
+|  /:/|:|__|__   /:/|:|__|__   /:/  \:\  \   /::\~\:\  \   /::\~\:\  \ |
+| /:/ |::::\__\ /:/ |::::\__\ /:/__/ \:\__\ /:/\:\ \:\__\ /:/\:\ \:\__\|
+| \/__/~~/:/  / \/__/~~/:/  / \:\  \ /:/  / \/__\:\/:/  / \/__\:\/:/  /|
+|       /:/  /        /:/  /   \:\  /:/  /       \::/  /       \::/  / |
+|      /:/  /        /:/  /     \:\/:/  /         \/__/         \/__/  |
+|     /:/  /        /:/  /       \::/  /                               |
+|_____\/__/_________\/__/_________\/__/________________________________|             
+
+Conquest of Azerothcore by https://github.com/jealous-sound/azerothcore-wotlk-coa
+
+------------------------------------------------------------------------
+
+How to Start the Server:
+1. Launch Conquest of Azerothcore.bat and select Option 1.
+2. A new window will open, give it about 20 seconds then press any key when it says to.
+
+How to Shut Down the Server:
+1. Launch Conquest of Azerothcore.bat and select Option 2.
+
+I made a GM account you can use already:
+username: Admin
+password: Password
+
+How to Create an Account:
+(Make sure the Server is running first)
+1. Select Option 3.
+2. Type you preferred Username, then Password, then Password again.
+3. Choose if you want the account to be an admin or not.
+
+How to Start the Client:
+1. Launch Conquest of Azerothcore.bat and select Option 4.
+
+------------------------------------------------------------------------
+
+Notes:
+- THIS IS A VERY EARLY VERSION AND A LOT IS MISSING/BUGGY
+- I did not include an Option in the "Launch Conquest of Azerothcore.bat" to allow you
+to change the Server IP or the Client IP because this build will probably be replaced by
+a newer one here soon. Consider this Repack as a solo test bed for now.
+- You can manually check for Server Side updates within the Server\CoA-Repack-Update folder.
+- If you played Ascension in the past and have the client still installed, consider joining
+their Discord (https://discord.gg/tDsEwY6WZ) because they need more Cache and Addon files to keep
+mapping out everything.
+
+I'm keepin a close eye on this project because of how cool I think it is.
+
+Enjoy!~
+-DnD

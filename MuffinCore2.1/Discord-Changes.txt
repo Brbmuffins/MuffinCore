@@ -1,0 +1,21 @@
+**CoA Repack update — 12 September 2026**
+
+Fixed issues:
+- #35 — Specialization choices now persist correctly.
+- #34 — Removed paid-class restrictions from talent and specialization progression.
+- #33 — Corrected hostile crowd-control classification.
+- #32 — Fixed Starcaller parry scaling.
+- #29 — Necromancer Undead Stances are now mutually exclusive for the same caster.
+- #28 — Fixed legacy class restrictions on items for custom classes.
+- #27 — Fixed legacy class restrictions on quests for custom classes.
+- #25 — Fixed racial ability support across Ascension race, class, and resource combinations.
+- #24 — Barbarian now uses Warrior-style melee attack power; Bloodmage uses Rogue-style melee attack power.
+- #23 — Fixed custom-class stat progression from levels 2–80, preventing the level-2 health/stat drop.
+- #21 — Cultist tentacles retain their intended model and scale.
+- #22 — Inner Demon retains the character model with wings instead of using the Metamorphosis body.
+
+Also checked #17: the earlier health/mana regeneration fix is already included. No additional regen tuning was added.
+
+For existing installations, use CoA-Repack-Update.zip on the client-compat-20260911 release (the previous login/regen update). Extract CoA-Repack-Update inside CoA-Repack and run Apply_Update.bat. Accounts, characters, inventory, learned spells, and settings are preserved. Keep Update-Backups until you have checked the update.
+
+CoA-Repack.rar is the complete package for a fresh installation. The game client is distributed separately.

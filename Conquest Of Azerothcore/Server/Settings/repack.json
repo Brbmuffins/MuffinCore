@@ -1,0 +1,8 @@
+{
+  "mysqlPort": 3307,
+  "authPort": 3724,
+  "worldPort": 8085,
+  "raPort": 3443,
+  "raUsername": "local",
+  "raPassword": "local"
+}

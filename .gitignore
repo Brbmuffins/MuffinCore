@@ -1,0 +1,51 @@
+# MuffinCore .gitignore
+# Tracks: launcher/management scripts, config templates, release notes/manifests,
+# update payload *source* files, docs. Ignores: the game client, per-install runtime
+# state (databases, generated configs, logs, backups), secrets, and large binaries.
+# Paths are anchored where a generic name (e.g. "Data") would also match source
+# folders like "data/sql" on case-insensitive Windows git.
+
+# === Game client (44 GB, proprietary third-party files; never commit) ===
+/Conquest Of Azerothcore/Client/
+
+# === Per-install runtime: databases, generated configs, process state, logs, backups ===
+**/mysql/
+**/.state/
+**/Core/Logs/
+# Per-update execution logs are machine-specific runtime output.
+**/CoA-Repack-Update/*.log
+# Generated from Settings/*.template on every start; contain the DB app password.
+**/Core/configs/*.conf
+**/Core/configs/modules/*.conf
+**/BugReport/reports/
+**/BugReport/Logs/
+**/Update-Backups/
+**/Database-Backups/
+
+# === Secrets ===
+# MySQL root/app passwords.
+**/Settings/database.json
+# Contains the upstream bug-report service intake key (see AUDIT_2026-09-13.md, B3).
+**/BugReport/relay.py
+
+# === Large or binary release payloads (hashes are recorded in RELEASE.json / MANIFEST.json) ===
+/MuffinCore2.1/Data/
+/Conquest Of Azerothcore/Server/Data/
+**/Runtime/
+**/Database/Clean/
+**/Source/server-source.zip
+*.exe
+*.dll
+*.pdb
+*.rar
+*.zip
+*.gz
+*.dmp
+
+# === OS / editor / tool junk ===
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.log
+__pycache__/

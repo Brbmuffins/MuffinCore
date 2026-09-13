@@ -1,0 +1,55 @@
+{
+  "name": "CoA Repack",
+  "releaseDate": "2026-09-12",
+  "repository": "https://github.com/jealous-sound/azerothcore-wotlk-coa",
+  "mainRevision": "c1f3a6b427800d13bd134e3969d9fd0883ae383d",
+  "sourceRevision": "26b64e36d6016fa4088e9e7e43a9fb77b27ee67d",
+  "binaries": [
+    {
+      "Name": "authserver.exe",
+      "SHA256": "CFB0C89AA4BF35D64DCE620E168375EA5F3EFEC4BA00BDECA76A600CA9450394",
+      "Bytes": 2134016
+    },
+    {
+      "Name": "worldserver.exe",
+      "SHA256": "6633BA3372DA97C769018FDED98442C6CF7503101F2383EC905DE2D4F0D8E70F",
+      "Bytes": 29644800
+    }
+  ],
+  "changes": [
+    "Include the five completed classes and their database migrations.",
+    "Skip creature model-info rows whose display data is missing.",
+    "Resolve Venomancer metadata safely during startup registration.",
+    "Include matching Tinker display, model and game-object DBC records.",
+    "Tinker integration, missing live starter templates, and corrected Manastorm XP reads.",
+    "Restore non-GM local login and natural health/mana regeneration for custom classes.",
+    "Custom-class specialization, talent, crowd-control, equipment, quest, racial, stat progression, attack power, stance and appearance fixes."
+  ],
+  "models": {
+    "creatureDisplays": 25382,
+    "creatureModelRecords": 1940,
+    "databaseModelInfoRows": 25263,
+    "addedDisplays": 16,
+    "addedModelRecords": 14,
+    "addedObjectDisplays": 1
+  },
+  "account": "local",
+  "password": "local",
+  "gmLevel": 3,
+  "characters": 0,
+  "startupTested": true,
+  "emptyMySQLImportTested": false,
+  "inGameTested": false,
+  "client": "Use the matching CoA client, distributed separately.",
+  "localPatch": {
+    "id": "issue-fixes-20260912",
+    "migrations": [
+      "rev_1789223314829733700.sql",
+      "rev_20260912_00_custom_class_stat_progression.sql"
+    ],
+    "rollbackDirectory": "Update-Backups/issue-fixes-20260912",
+    "inGameTested": false
+  },
+  "releaseId": "issue-fixes-20260912",
+  "manastormEnabled": true
+}

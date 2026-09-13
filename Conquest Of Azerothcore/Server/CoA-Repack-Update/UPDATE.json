@@ -1,0 +1,166 @@
+{
+  "format": 4,
+  "id": "issue-fixes-20260912",
+  "baseSourceRevision": "f069a4b943ccf72d1738d98c0123ec0ef49e1354",
+  "description": "Custom-class specialization, talent, crowd-control, equipment, quest, racial, stat progression, attack power, stance and appearance fixes.",
+  "files": {
+    "Core/worldserver.exe": {
+      "baseSha256": "c7f5149b387578849bb431c62c43132b61cb1df48060fca315a7fe2ac42f12e7",
+      "sha256": "6633ba3372da97c769018fded98442c6cf7503101f2383ec905de2d4f0d8e70f",
+      "bytes": 29644800
+    }
+  },
+  "sourceFiles": {
+    "data/sql/updates/pending_db_world/rev_1789223314829733700.sql": {
+      "baseSha256": null,
+      "sha256": "5b40c54b9d7a90bf8ca05a48f74e85abab7e87aba81c4391f580b47e11b71f7d",
+      "bytes": 462
+    },
+    "data/sql/updates/pending_db_world/rev_20260912_00_custom_class_stat_progression.sql": {
+      "baseSha256": null,
+      "sha256": "7e05adc9ccaeb8ac126a0095b72233dac674d599154aa394f9812db1125e3c19",
+      "bytes": 2665
+    },
+    "modules/mod-ascension-compat/README.md": {
+      "baseSha256": "2a37a6ddaba7ba4a7f6d9a31e731707fad3bc0b6a579cbd071085935db1d0c94",
+      "sha256": "bfe74b1fe5a6a4632900a54ceee751473e2cf3fc5e708de9d186cd15dc79d950",
+      "bytes": 4153
+    },
+    "modules/mod-ascension-compat/src/AscensionCoATalentData.h": {
+      "baseSha256": "cc0e57f779131dcafc9b305285c7ff2c0955661abdc0bd6a60c97db44d496a07",
+      "sha256": "636e6befed26606af23bad7d474cc16ead48e5af0f3a9c46fbedb3068bd67f73",
+      "bytes": 189093
+    },
+    "modules/mod-ascension-compat/src/AscensionCompat.cpp": {
+      "baseSha256": "34a44bb30243a5b91d998783ba33c66c8ef394a55429ba5d342179ca054763fe",
+      "sha256": "841afb2df5c0fe001c61900c4be6b7dddb8748d819aaa0176649ed0cd7436b52",
+      "bytes": 157184
+    },
+    "modules/mod-ascension-compat/src/AscensionNecromancerAuras.cpp": {
+      "baseSha256": "bc46e4f63559083c1de466794c1744c8ac2dd99baec000f6f6d2a3438d2c5c03",
+      "sha256": "08cf244713fcfee5d315996b282d04f4c4e7615b53b5c2d1520dc31e2b96441c",
+      "bytes": 10710
+    },
+    "modules/mod-ascension-compat/src/AscensionRacialAbilities.h": {
+      "baseSha256": null,
+      "sha256": "6377c142d35b67b5468440077b9975ea42e979d6f60eebe9a82a09938afc967c",
+      "bytes": 1865
+    },
+    "modules/mod-ascension-compat/src/AscensionWitchHunterCompletion.cpp": {
+      "baseSha256": "ad1134681a47c5c4562a094ff0c3dbee15672eb4e937bb8b6344fdc8c670820c",
+      "sha256": "40b49e02135a113505d25b1f716549ebcf428b780249c6de14fc24894db65709",
+      "bytes": 14539
+    },
+    "modules/mod-ascension-compat/tests/test_automatic_talent_dependencies.py": {
+      "baseSha256": null,
+      "sha256": "770bc8da3f30d8b15a982ab0bb7a6b7ed7a33fd283fdc18aedb8c46848f25aaa",
+      "bytes": 6578
+    },
+    "src/server/game/Entities/Item/ItemTemplate.h": {
+      "baseSha256": "27985c7225f820558c3959228e1c307d630f558e94998258682bb53cd36320c1",
+      "sha256": "df699334c1e386e7b6e51e53e20ff632790e2ea3d8446d4849916fc607982409",
+      "bytes": 35736
+    },
+    "src/server/game/Entities/Player/Player.cpp": {
+      "baseSha256": "f13c20846d918469e4bc536af4e56247e342a0f54727019f53f534a9f4a7ea05",
+      "sha256": "2c7e170aa9854938304469ef1571f694659828eab0a513711861053db852da8f",
+      "bytes": 631656
+    },
+    "src/server/game/Entities/Totem/Totem.cpp": {
+      "baseSha256": "65e18b7e4be9adf132e5d069e50d1f4c850183d12645e23f7aaff6a9ae1fd2c7",
+      "sha256": "bdd60188fb22d73acb65956feb826ad39978c4af01989b57fa5d59ed34329b9d",
+      "bytes": 7029
+    },
+    "src/server/game/Entities/Unit/StatSystem.cpp": {
+      "baseSha256": "6cb277bdfad441867d3976c30307922f1cb244e71e27488a26e13debbb536201",
+      "sha256": "c8ae50641f48e17ba7fd4f6e5336c608fd3d6d283ca4d1629122777dd077ae2b",
+      "bytes": 54986
+    },
+    "src/server/game/Entities/Unit/Unit.cpp": {
+      "baseSha256": "f4aec275c4629650d797af6b8816f2564947c0e0352910c6f16f78718c53eb68",
+      "sha256": "3d9b68a90346aecb8b97e4b371c01a8daedd09749ec9f9820977afd3c7606b8b",
+      "bytes": 659269
+    },
+    "src/server/game/Globals/ObjectMgr.cpp": {
+      "baseSha256": "d048df50563fff0d2d3b8a59dd21193d637199ce1a3605e18b90b0eab1107ee7",
+      "sha256": "d2ceb29e44dc6f4c242c69c0957ea61b2dc6d908622dee818a992eec4124a42f",
+      "bytes": 461220
+    },
+    "src/server/game/Handlers/CharacterHandler.cpp": {
+      "baseSha256": "a4503ecf9ad7a3b44e729afec143e9c9e47500e6b58deacf6cbff2026e62357a",
+      "sha256": "1c5dd43db5afb4b791b9b2efe6225186a0ac125f5b4a76545c714ffcf8433673",
+      "bytes": 104833
+    },
+    "src/server/game/Quests/QuestDef.cpp": {
+      "baseSha256": "a7e093852624903121e6a344d10d15acb0e70fb34f82c618915343e99ed016c4",
+      "sha256": "b02f7e53488dd77beee93c4575a8b3be1db1dae176314a13f389eb44673a5424",
+      "bytes": 15313
+    },
+    "src/server/game/Spells/SpellInfoCorrections.cpp": {
+      "baseSha256": "b6cfd48897d8b279602998ebd68b6f920c3812b901ad97a1b9fa9cc751086add",
+      "sha256": "35d056d9321f776cde97857efc9a42e110d2ed4f4906b7d1b8c66a1142d40241",
+      "bytes": 189701
+    },
+    "src/server/shared/SharedDefines.h": {
+      "baseSha256": "7d0883d4aa34b0b600cc53d3d68cabb399186fedc82f99f441b9f5063ce0c8d8",
+      "sha256": "57b19e0e282a9be524ff4b0311b5273bf1def8d82bf05b57becf7961195a736b",
+      "bytes": 209003
+    },
+    "src/test/server/game/Entities/CustomClassAttackPowerTest.cpp": {
+      "baseSha256": null,
+      "sha256": "4844bd3f6ca02dd9884b1dff60bd9f82b7a00163787ef63049b8ea3e6f02d724",
+      "bytes": 5575
+    },
+    "src/test/server/game/Entities/ItemClassMaskTest.cpp": {
+      "baseSha256": null,
+      "sha256": "55d295b0a830d2d2a3dc949c64f30335d2fa8f13717b5c3dc6df2bc9654849f1",
+      "bytes": 4287
+    },
+    "src/test/server/game/Entities/ShapeshiftModelTest.cpp": {
+      "baseSha256": null,
+      "sha256": "1055d856fb77aeae03757ea86b7ac3dfb06627fdf4a4dd3eb05f5a1882d4ae8d",
+      "bytes": 3722
+    },
+    "src/test/server/game/Entities/TotemDisplayTest.cpp": {
+      "baseSha256": null,
+      "sha256": "8dc1942d39ae732d51bd958c7e3e5edf4b6a8c96d4d59a6f5433ac1e0c84cb2b",
+      "bytes": 3676
+    },
+    "src/test/server/game/Modules/AscensionRacialAbilitiesTest.cpp": {
+      "baseSha256": null,
+      "sha256": "4eb7cf412e9f6679bfc9f7932d3626201401e94f67957182ab5e5e0cc482b17a",
+      "bytes": 4669
+    },
+    "src/test/server/game/Quests/QuestClassMaskTest.cpp": {
+      "baseSha256": null,
+      "sha256": "1d7d57886165d0ac0af51b50211eefd4b3909d1118f643e3323466e69a7fc7ec",
+      "bytes": 2695
+    }
+  },
+  "targetSourceRevision": "26b64e36d6016fa4088e9e7e43a9fb77b27ee67d",
+  "worldTables": {
+    "spell_group": {
+      "baseSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sha256": "1082421946f78ceb1aec3dbe588839ba3e338dd16cadbcf5b8dbeb8eb241c77f"
+    },
+    "spell_group_stack_rules": {
+      "baseSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sha256": "300cdfd0d967d25af13cc44d16c0667d6150e8e15fed6baf6823571d6fb3cd43"
+    },
+    "player_class_stats": {
+      "baseSha256": "502cb143aba816300bfb81b35c7247fdb14d0a0bb8369b05df9cbd07489fec46",
+      "sha256": "627b12dfe796cd3fdb54168f88c76415efe451e183a1542bcd3c9dc20c851289"
+    }
+  },
+  "statInputsSha256": "288c771592499b058541f149b49836f5bb442a25a0bb15944399f947d7edabe8",
+  "migrations": [
+    {
+      "name": "rev_1789223314829733700.sql",
+      "sha1": "57ea70bf82208aaa78f7c8c6296f94312034d5bb"
+    },
+    {
+      "name": "rev_20260912_00_custom_class_stat_progression.sql",
+      "sha1": "19fa46894532f4c88114bd9b626f93a7796d64a9"
+    }
+  ]
+}

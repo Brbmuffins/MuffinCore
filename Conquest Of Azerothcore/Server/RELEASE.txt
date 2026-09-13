@@ -1,0 +1,30 @@
+COA REPACK - 2026-09-11 / client-compat-20260911
+
+Restores non-GM login for the local Ascension client and natural health/mana
+regeneration for custom classes. Includes the previous class work, Tinker
+integration, live starter templates and corrected persistent Manastorm XP reads.
+Manastorm is enabled. Normal and GM characters start at level 1.
+
+Account/password: local / local. GM level 3. No characters included.
+The populated databases match the bundled source. Automatic SQL updates are disabled
+in this portable package because its migrations are already installed.
+The matching CoA game client is distributed separately.
+
+Source revision: f069a4b943ccf72d1738d98c0123ec0ef49e1354
+GitHub main base: c1f3a6b427800d13bd134e3969d9fd0883ae383d
+Pull request: https://github.com/jealous-sound/azerothcore-wotlk-coa/pull/19
+Source archive: existing curated source with nine updated or added source members.
+Repository automation and agent documentation remain excluded from the archive.
+
+The matching CoA-Repack-Update.zip supports startup-fixes-20260911.
+Older repacks need that previous release first. This update contains no SQL migration.
+The updater verifies the installed version, preserves player progress and Settings,
+including Manastorm preferences, and supports repeat installation and rollback.
+
+Verified: 58 updater tests with bundled Python, native install/repeat/rollback/reapply,
+unchanged player/account/inventory/spell/Settings data and world migration history,
+local GM console, service and relay readiness, and graceful shutdown.
+The user confirmed non-GM login and idle health/mana regeneration on this build.
+
+Installed incremental update: issue-fixes-20260912
+Custom-class specialization, talent, crowd-control, equipment, quest, racial, stat progression, attack power, stance and appearance fixes.

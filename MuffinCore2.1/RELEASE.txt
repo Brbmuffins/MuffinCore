@@ -1,0 +1,20 @@
+COA REPACK - 2026-09-12 / issue-fixes-20260912
+
+Source revision: 26b64e36d6016fa4088e9e7e43a9fb77b27ee67d
+Includes twelve issue fixes: #35, #34, #33, #32, #29, #28, #27, #25, #24, #23, #21, #22.
+The earlier health/mana regeneration fix (#17) is included and was rechecked.
+See Discord-Changes.txt for the player-facing changelog.
+
+Account/password: local / local. GM level 3. No characters included. Manastorm is enabled.
+Source archive: curated source with 25 updated or added members matching this worldserver.
+The accepted authserver and server data are retained. The game client is distributed separately.
+Automatic SQL updates are disabled because the included database already has these migrations.
+
+CoA-Repack-Update.zip supports client-compat-20260911 (the login/regeneration release).
+It preserves accounts, characters, inventory, learned spells, Settings, and unrelated world data.
+It applies two guarded migrations for stance exclusivity and custom-class stat progression.
+Verified: 70 updater tests, native apply/repeat/rollback/reapply with newer progress preserved,
+local GM console, service/relay readiness, and graceful shutdown. No in-game test is claimed.
+
+Clean_Database.bat performs an optional destructive factory reset after its own confirmation.
+It uses the matching Database/Clean snapshot and preserves a recovery backup.
